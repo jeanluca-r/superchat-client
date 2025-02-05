@@ -18,4 +18,4 @@ A Python client for the Superchat API, allowing you to interact with channels, c
 Install the package from PyPI:
 
 ```bash
-pip install superchat_client
+pip install superchat-client

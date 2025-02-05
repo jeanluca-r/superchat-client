@@ -5,14 +5,14 @@ with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name="superchat_client",  # Your package name (must be unique on PyPI)
+    name="superchat-client",  # Your package name (must be unique on PyPI)
     version="0.1.0",  # Start with an initial version
-    author="Your Name",
-    author_email="your.email@example.com",
+    author="Jean-Luca Röder",
+    author_email="luca@crator.de",
     description="A Python client for the Superchat API",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/yourusername/superchat_client",  # URL to your project
+    url="https://github.com/jeanluca-r/superchat-client",  # URL to your project
     packages=setuptools.find_packages(),  # Automatically find packages
     classifiers=[
         "Programming Language :: Python :: 3",
